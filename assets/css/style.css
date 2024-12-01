@@ -5352,13 +5352,19 @@ ol.wp-block-rss {
           clip-path: polygon(0 0, 100% 0, calc(100% - 60px) 100%, 0% 100%);
   z-index: 2;
 }
-
+.header-logo a img{
+  position: relative;
+  left: -20px;
+  width: 180px;
+  height: 60px;
+  /* zoom: 120%; */
+}
 .header-layout2 .logo-bg:after {
   content: '';
   position: absolute;
   top: 0;
-  left: 0;
-  background-color: var(--theme-color);
+  left: 0px;
+  background-color: var(--white-color); 
   width: calc(100% - 3px);
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 60px) 100%, 0% 100%);
@@ -8933,7 +8939,8 @@ table.woocommerce-product-attributes {
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
   background-color: var(--white-color);
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05); */
+  box-shadow: 0px 3px 15px rgba(0, 128, 0, 0.3);
   border-radius: 20px;
   padding: 18px;
 }

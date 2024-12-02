@@ -1,10 +1,11 @@
 //for to remove .html from the url
 
-const path = window.location.pathname;
-if (path.endsWith('.html')) {
-    const newPath = path.replace('.html', '');
-    window.history.replaceState(null, '', newPath);
-}
+// const path = window.location.pathname;
+// if (path.endsWith('.html')) {
+//     const newPath = path.replace('.html', '');
+//     window.history.replaceState(null, '', newPath);
+// }
+
 
 
 (function ($) {

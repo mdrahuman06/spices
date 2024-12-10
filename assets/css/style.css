@@ -12650,7 +12650,7 @@ span.select2-selection.select2-selection--single:focus {
 
 /*------------------- 4.00. Brand  -------------------*/
 /* Brand 1 ---------------------------------- */
-.brand-box {
+/* .brand-box {
   display: grid;
   -webkit-align-content: center;
       -ms-flex-line-pack: center;
@@ -12670,7 +12670,26 @@ span.select2-selection.select2-selection--single:focus {
 .brand-box:hover {
   -webkit-filter: none;
           filter: none;
+} */
+ .brand-box {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+  align-items: center; 
+  gap: 15px; 
+  width: 100%;
+  text-align: center;
+  -webkit-filter: grayscale(1) invert(0.3) brightness(1.4);
+          filter: grayscale(1) invert(0.3) brightness(1.4);
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
+
+.brand-box:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
 
 /* Brand 2 ---------------------------------- */
 .brand-card {
